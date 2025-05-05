@@ -1,7 +1,7 @@
 @media (max-width: 768px) { 
 
-    .welcome-container {
-
+    .welcome{
+        margin-top: 50px;
     }
     
     .welcome-title {
@@ -11,5 +11,6 @@
     .welcome-subtitle {
         font-size: 1.5rem;
         margin-top: 10px;
+        margin-bottom: 10px;
     }
 }
