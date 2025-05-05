@@ -1,7 +1,7 @@
 const btnCopy = document.querySelector('.btn-copy');
 
 btnCopy.addEventListener('click', () => {
-    const email = 'joaofelipe.dev@gmail.com';
+    const email = 'joao.felipe.camargo.jfc@gmail.com';
     navigator.clipboard.writeText(email);
   
     btnCopy.textContent = 'Email copy!';
