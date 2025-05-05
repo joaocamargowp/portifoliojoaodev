@@ -1,0 +1,71 @@
+.welcome {
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    background-color: transparent;
+    font-family: 'Special Gothic Expanded One', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.welcome-title {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #FFF;
+    
+}
+
+.welcome-subtitle {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.welcome-title, .welcome-subtitle {
+    transform: translateX(20px);
+    transition: 0.7s ease-in-out;
+}
+
+.img-social {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.img-social:hover {
+    transform: scale(1.1);
+}
+
+.btn-copy {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+    height: 70px;
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    background-color: #4966e6;
+    font-family: 'Comic Relief', cursive;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 0px 10px .5px #FFF;
+}
+
+.btn-copy:hover {
+    box-shadow: 0px 0px 10px 2px #FFF;
+    background-color: #001a61;
+}
+
+
+
+
+
+
+
+
+

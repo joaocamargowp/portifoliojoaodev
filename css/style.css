@@ -1,0 +1,10 @@
+body {
+    background: linear-gradient(to right, #1d3244, #000000)
+}
+
+.title {
+    font-size: 4rem;
+    font-weight: 600;
+   color: #4122d7;
+   text-shadow: 0px 0px 6px 10px #000;
+}

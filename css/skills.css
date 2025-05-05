@@ -1,0 +1,45 @@
+.skills {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    font-family: 'Special Gothic Expanded One', cursive;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+    margin-bottom: 100px;
+}
+
+.box-skills {
+    height: auto;
+    margin-top: 80px;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 2px #FFF;
+}
+
+.text-skills {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #FFF;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logos {
+    border-radius: 20px;
+    width: 130px;
+    height: 130px;
+    border: solid 5px #ffffff;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.logos:hover {
+    transform: scale(1.05);
+   
+}
